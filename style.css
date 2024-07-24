@@ -1,0 +1,39 @@
+button {
+  width: 80px;
+  height: 80px;
+  border-radius: 5%;
+  font-size: 40px;
+}
+.rock {
+  background-color: rgba(255, 0, 0);
+}
+.paper {
+  background-color: rgb(0, 0, 255);
+}
+.scissors {
+  background-color: rgb(0, 128, 0);
+}
+.rock:hover,
+.paper:hover,
+.scissors:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bolder;
+  font-size: larger;
+  font-family: "Audiowide", sans-serif;
+  margin-top: 200px;
+}
+.player-score {
+  color: blue;
+}
+.computer-score {
+  color: red;
+}
+body {
+  font-size: 120%;
+}
